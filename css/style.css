@@ -1,0 +1,24 @@
+#Title{
+   justify-content: center;
+   text-align: center;
+   background-color:rgba(181, 9, 32, 1);
+   color: white;
+}
+
+body{
+       background-image: url("/img/fundo\ pokebola.jpg");
+}
+
+.conteiner{
+    gap: 10%;
+    background-color: rgba(245, 125, 125, 0.99);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.form__button{
+    background-color:rgba(181, 9, 32, 1);
+    color: white;
+}
