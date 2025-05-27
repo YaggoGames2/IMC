@@ -6,33 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./js/Dom.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>IMC</title>
 </head>
 
-<div class="fundo"></div>
-
 <body>
-    <h1 id="Title">Cálculo do IMC</h1>
-    <div class="conteiner">
-        <form class="form">
-            <p class="form__text">Digite a sua altura:</p>
+    <div class="Documento">
+        <h1 id="Title">Cálculo do IMC</h1>
+         <!-- <div class="gif1" > 
+            <img class="gifesquerda" src="/img/IMC.pokemon3.gif" alt="imagem de decoracao">
+            <img class="gifesquerda2" src="/img/IMC.pokemon2.gif" alt="imagem de decoracao">
+            <img class="gifesquerda3" src="/img/IMC.pokemon.gif" alt="imagem de decoracao">
+        </div> -->
+        <div class="conteiner">
+            <form class="form">
+                <p class="form__text">Digite a sua altura:</p>
 
-            <div class="form__alturaUsuario">
-                <input type="number" id="alturaUsuario">
+                <div class="form__alturaUsuario">
+                    <input type="number" id="alturaUsuario">
+                </div>
+
+                <div class="form__pesoUsuario">
+                    <p class="form__text">Digite o seu peso:</p>
+                    <input type="number" id="pesoUsuario">
+                </div>
+
+                <p> <input type="button" value="calcular" class="form__button" onclick="calcular()"></p>
+                <p id="form__text">O resultado é:</p>
+                <div class="form__resultado"></div>
+            </form>
+            <div class="imagem"> <img id="imagemResultado" src="/img/queméesserpokemon.jpg" alt="imagem de resultado">
             </div>
+        </div>
 
-            <div class="form__pesoUsuario">
-                <p class="form__text">Digite o seu peso:</p>
-                <input type="number" id="pesoUsuario">
+        <footer class="footer">
+            <div class="footer__text"> Cálculo do IMC - Desenvolvido por:
+                <a class= "link" href="https://github.com/YaggoGames2"> YaggoGames2</a>
             </div>
-
-            <p> <input type="button" value="calcular" class="form__button" onclick="calcular()"></p>
-            <p id="form__text">O resultado é:</p>
-            <div class="form__resultado"></div>
-        </form>
-        <div class="imagem"> <img id="imagemResultado" src="/img/queméesserpokemon.jpg" alt="imagem de resultado"></div>
-
+        </footer>
     </div>
+
+
 </body>
 
 </html>

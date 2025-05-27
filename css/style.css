@@ -1,7 +1,11 @@
-*{
+* {
     box-sizing: border-box;
 }
 
+.documento{
+    gap: 100px;
+    display: flex;
+}
 #Title {
     justify-content: center;
     text-align: center;
@@ -13,15 +17,26 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    
+    font-size: 40px;
+    gap: 20px;
+ 
 }
 
-body{
-     background-image: url("/img/fundo\ pokebola.jpg");
+/* .gif1{
+    width: 30%;
+    margin: auto;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 130px;
+    margin-right: -2%;
+    margin-bottom: 40px;
+} */
+
+body {
+    background-image: url("/img/fundo\ pokebola.jpg");
 }
 
 body::before {
-    
     content: "";
     position: fixed;
     top: 0;
@@ -31,21 +46,19 @@ body::before {
     background-color: rgba(255, 255, 255, 0.205);
     z-index: -1;
 }
- 
-   
-
 
 .conteiner {
-    gap: 10%;
     background-color: #f57d7dd7;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
     display: flex;
     width: 30%;
     margin: auto;
     flex-direction: column;
+    padding: 2%;
+    margin-top: 130px;
+    margin-bottom: 40px;
 }
 
 img {
@@ -61,14 +74,15 @@ img {
 .imagem {
     justify-content: center;
     align-items: center;
-    padding: -50px;
+    padding: 0px;
     display: flex;
     width: 50%;
-
+   margin-top: 20px auto;
 }
 
-
-
+.form__texto{
+    gap: 50px;
+}
 .form__button {
     background-color: rgba(181, 9, 32, 1);
     color: white;
@@ -83,4 +97,20 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     display: block;
+}
+
+.footer{
+    background-color: rgba(181, 9, 32, 1);
+    color: #f3f3f3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    margin-top: 14%;
+    width: 100vw;
+    font-size: 120%;
+}
+
+.link{
+    color: #f3f3f3;
 }
