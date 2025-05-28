@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+ 
 .documento{
     gap: 100px;
     display: flex;
@@ -21,21 +21,11 @@
     gap: 20px;
  
 }
-
-/* .gif1{
-    width: 30%;
-    margin: auto;
-    flex-direction: column;
-    padding: 2%;
-    margin-top: 130px;
-    margin-right: -2%;
-    margin-bottom: 40px;
-} */
-
+ 
 body {
     background-image: url("/img/fundo\ pokebola.jpg");
 }
-
+ 
 body::before {
     content: "";
     position: fixed;
@@ -46,21 +36,56 @@ body::before {
     background-color: rgba(255, 255, 255, 0.205);
     z-index: -1;
 }
-
+ 
+.Documento{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+ 
+.gif1{
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    order: 1;
+}
+ 
+.gif2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    order: 3;
+}
+ 
 .conteiner {
     background-color: #f57d7dd7;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
-    width: 30%;
+    width: 40%;
     margin: auto;
     flex-direction: column;
     padding: 2%;
     margin-top: 130px;
     margin-bottom: 40px;
+    order: 2;
 }
-
+ 
 img {
     justify-content: center;
     align-items: center;
@@ -70,7 +95,7 @@ img {
     width: 80%;
     margin: auto;
 }
-
+ 
 .imagem {
     justify-content: center;
     align-items: center;
@@ -79,15 +104,24 @@ img {
     width: 50%;
    margin-top: 20px auto;
 }
-
-.form__texto{
-    gap: 50px;
+ 
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+ 
+.form__texto{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
 .form__button {
     background-color: rgba(181, 9, 32, 1);
     color: white;
 }
-
+ 
 .form__resultado {
     margin: 20px;
     padding: 12px;
@@ -98,7 +132,7 @@ img {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     display: block;
 }
-
+ 
 .footer{
     background-color: rgba(181, 9, 32, 1);
     color: #f3f3f3;
@@ -110,7 +144,10 @@ img {
     width: 100vw;
     font-size: 120%;
 }
-
+ 
 .link{
     color: #f3f3f3;
 }
+ 
+ 
+ 
