@@ -33,7 +33,7 @@ function calcular() {
     } else if (resultado < 25) {
  
         TipoDePeso = " Eutrofia";
-        Imagem = "./img/Pausar GIF Pikachu GIFs - Get the best gif on GIFER.gif"
+        Imagem = "./img/PausarGIFPikachuGIFsGetthebestgifonGIFER.gif"
         Pesoresultado.style.backgroundColor = "red";
         Pesoresultado.style.color = "yellow";
  
