@@ -25,7 +25,7 @@
  
 body {
     background-image: url("/img/fundo\ pokebola.jpg");
-     overflow-x: hidden;
+    overflow-x: hidden;
 }
  
 body::before {
