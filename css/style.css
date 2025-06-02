@@ -6,6 +6,7 @@
 .documento{
     gap: 100px;
     display: flex;
+    height: 100vw;
 }
 #Title {
     justify-content: center;
@@ -20,12 +21,13 @@
     flex-direction: column;
     font-size: 40px;
     gap: 20px;
- 
+  height: 20vh; 
 }
  
 body {
-    background-image: url("/img/fundo.pokebola.jpg");
+    background-image: url("./../img/fundo.jpg");
     overflow-x: hidden;
+ 
 }
  
 body::before {
@@ -43,8 +45,10 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 15px;
     padding: 20px;
+    height: 85vh;
+    margin: 0;
 }
  
 .gif1{
@@ -141,10 +145,12 @@ img {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 1.5%;
+    padding: 1%;
     margin-top: 8%;
     width: 100vw;
     font-size: 110%;
+    height: 60px;
+    
 }
  
 .link{
@@ -152,8 +158,9 @@ img {
 }
  
  
-@media screen and ( max-width: 750px) {
-  .gif1, .gif2 {
+@media screen and ( max-width: 750px) { 
+  
+    .gif1, .gif2 {
     display: none;
   }
  
@@ -174,4 +181,6 @@ img {
     width: 85%;      
    margin-bottom: 20px;
   }
+
+
 }
