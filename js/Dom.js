@@ -32,7 +32,7 @@ function calcular() {
  
     } else if (resultado < 25) {
  
-        TipoDePeso = " Eutrofia";
+        TipoDePeso = " Normal";
         Imagem = "./img/PausarGIFPikachuGIFsGetthebestgifonGIFER.gif"
         Pesoresultado.style.backgroundColor = "red";
         Pesoresultado.style.color = "yellow";
